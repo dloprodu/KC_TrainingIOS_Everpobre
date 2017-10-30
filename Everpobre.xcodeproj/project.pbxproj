@@ -11,6 +11,7 @@
 		6369FE721FA7C5DC00147950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6369FE711FA7C5DC00147950 /* Assets.xcassets */; };
 		6369FE781FA7C5DC00147950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6369FE771FA7C5DC00147950 /* main.m */; };
 		6369FE831FA7C7AD00147950 /* SQASimpleCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 6369FE811FA7C7AD00147950 /* SQASimpleCoreDataStack.m */; };
+		6369FE861FA7CFDE00147950 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6369FE841FA7CFDE00147950 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6369FE771FA7C5DC00147950 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6369FE811FA7C7AD00147950 /* SQASimpleCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQASimpleCoreDataStack.m; sourceTree = "<group>"; };
 		6369FE821FA7C7AD00147950 /* SQASimpleCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQASimpleCoreDataStack.h; sourceTree = "<group>"; };
+		6369FE851FA7CFDE00147950 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				6369FE821FA7C7AD00147950 /* SQASimpleCoreDataStack.h */,
 				6369FE811FA7C7AD00147950 /* SQASimpleCoreDataStack.m */,
+				6369FE841FA7CFDE00147950 /* Model.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				6369FE781FA7C5DC00147950 /* main.m in Sources */,
 				6369FE831FA7C7AD00147950 /* SQASimpleCoreDataStack.m in Sources */,
 				6369FE6A1FA7C5DC00147950 /* AppDelegate.m in Sources */,
+				6369FE861FA7CFDE00147950 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +309,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6369FE841FA7CFDE00147950 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6369FE851FA7CFDE00147950 /* Model.xcdatamodel */,
+			);
+			currentVersion = 6369FE851FA7CFDE00147950 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6369FE5D1FA7C5DC00147950 /* Project object */;
 }
